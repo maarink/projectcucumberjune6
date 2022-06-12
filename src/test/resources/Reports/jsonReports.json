@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-09T13:56:06.111Z",
+        "line": 3,
+        "name": "To validate Login Funtionality",
+        "description": "",
+        "id": "to-validate-the-postoffice-funtionality;to-validate-login-funtionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79657983659,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be open the home page",
+            "match": {
+              "location": "Postoffice.the_user_should_be_open_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18501043427,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user has to click the register button",
+            "match": {
+              "location": "Postoffice.the_user_has_to_click_the_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1026818275,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to fill the username,dob and passing year",
+            "match": {
+              "location": "Postoffice.the_user_has_to_fill_the_username_dob_and_passing_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1209142376,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has to click the submit button",
+            "match": {
+              "location": "Postoffice.the_user_has_to_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.BaseClass.BaseClass.quit(BaseClass.java:65)\r\n\tat org.stepdefinition.Postoffice.the_should_navigate_the_function(Postoffice.java:60)\r\n\tat ✽.The should navigate the function(file:src/test/resources/Feature/Login.feature:8)\r\n",
+              "duration": 3664457,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "The should navigate the function",
+            "match": {
+              "location": "Postoffice.the_should_navigate_the_function()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the postoffice funtionality",
+    "description": "",
+    "id": "to-validate-the-postoffice-funtionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Login.feature",
+    "tags": []
+  }
+]

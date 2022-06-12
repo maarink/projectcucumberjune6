@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="100.493282">
+<testcase classname="To validate the postoffice funtionality" name="To validate Login Funtionality" time="100.493282">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.BaseClass.BaseClass.quit(BaseClass.java:65)&#13;&#10;&#9;at org.stepdefinition.Postoffice.the_should_navigate_the_function(Postoffice.java:60)&#13;&#10;&#9;at ✽.The should navigate the function(file:src/test/resources/Feature/Login.feature:8)&#13;&#10;"><![CDATA[Given The user should be open the home page.................................passed
+When The user has to click the register button..............................passed
+And The user has to fill the username,dob and passing year..................passed
+And The user has to click the submit button.................................passed
+Then The should navigate the function.......................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at org.BaseClass.BaseClass.quit(BaseClass.java:65)
+	at org.stepdefinition.Postoffice.the_should_navigate_the_function(Postoffice.java:60)
+	at ✽.The should navigate the function(file:src/test/resources/Feature/Login.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
